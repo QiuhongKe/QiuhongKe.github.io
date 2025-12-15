@@ -270,7 +270,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
-  - jekyll-toc
+  # - jekyll-toc  # Disabled: Not supported by GitHub Pages
   - jekyll-twitter-plugin
   - jemoji
 
