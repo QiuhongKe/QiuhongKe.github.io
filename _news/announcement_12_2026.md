@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-One papers is accepted to **IJCV**.
+One papers is accepted by **IJCV**.
 
 
