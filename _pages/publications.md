@@ -936,20 +936,8 @@ _styles: |
 
 <div class="publications">
 
-<!-- Action Recognition -->
-<h2 class="bibliography">Action Recognition</h2>
-{% bibliography --query @*[keywords ^= *Action Recognition*] %}
-
-<!-- Video Understanding -->
-<h2 class="bibliography">Video Understanding</h2>
-{% bibliography --query @*[keywords ^= *Video Understanding*] %}
-
-<!-- Generation -->
-<h2 class="bibliography">Generation</h2>
-{% bibliography --query @*[keywords ^= *Generation*] %}
-
-<!-- Other Publications -->
-<h2 class="bibliography">Other Publications</h2>
-{% bibliography --query @*[keywords !^= *Action Recognition*][keywords !^= *Video Understanding*][keywords !^= *Generation*] %}
+{% bibliography %}
 
 </div>
+
+
