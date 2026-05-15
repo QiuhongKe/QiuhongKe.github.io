@@ -2563,17 +2563,7 @@ layout: default
   </h2>
   
   <div class="publications" style="margin-top: 1rem;">
-    <!-- Action Recognition -->
-    <h2 class="bibliography">Action Recognition</h2>
-    {% bibliography --query @*[keywords ^= *Action Recognition*] --group_by none %}
-
-    <!-- Video Understanding -->
-    <h2 class="bibliography">Video Understanding</h2>
-    {% bibliography --query @*[keywords ^= *Video Understanding*] --group_by none %}
-
-    <!-- Generation -->
-    <h2 class="bibliography">Generation</h2>
-    {% bibliography --query @*[keywords ^= *Generation*] --group_by none %}
+  {% bibliography %}
   </div>
 
   <!-- Academic Services -->
