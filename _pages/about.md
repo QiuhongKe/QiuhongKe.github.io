@@ -9,7 +9,7 @@ profile:
   image: qiuhong.jpg
   image_circular: True # crops the image to make it circular
   more_info: >
-    <p>Senior Lecturer</p>
+    <p>Senior Research Fellow</p>
     <p>ARC DECRA Fellow</p>
     <p>Monash University</p>
 
